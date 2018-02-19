@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title Assignment
+        link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    body
+        form(action="user/:id" method="get")
+        #form-group
+            input.form-control(type='id', name='id' placeholder='Search for ...')
+            input.btn.btn-primary(type='submit', value='Submit')
